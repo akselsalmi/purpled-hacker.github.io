@@ -13,20 +13,26 @@ body {
   font-size: 1.25rem;
 }
 
+.imageside {
+    margin-left: 20px;
+    margin-top: 20px;
+}
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 240px;
     background-color: #163832;
     position: fixed;
     height: 100%;
     overflow: auto;
     font-weight: 100;
+    text-align: center;
+    vertical-align: center;
 }
 
 .sidebar a,span {
     display: block;
-    color: black;
+    color: rgb(128, 128, 128);
     padding: 16px;
     text-decoration: none;
 }
@@ -36,7 +42,7 @@ body {
 }
 
 .sidebar a.active {
-    background-color: var(--theme-color);
+    background-color: #1c473f;
     color: white;
 }
 
@@ -46,7 +52,7 @@ body {
 }
 
 div.content {
-    margin-left: 200px;
+    margin-left: 240px;
     padding: 1px 16px;
     /*height: 1000px;*/
 }
