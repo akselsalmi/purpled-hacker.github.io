@@ -16,6 +16,8 @@ body {
 .imageside {
     margin-left: 20px;
     margin-top: 20px;
+    border: 2000px;
+    border-color: aquamarine;
 }
 .sidebar {
     margin: 0;
