@@ -12,7 +12,14 @@ body {
 .body{
   font-size: 1.25rem;
 }
+.fab {
+    color: darkblue;
+    font-size: 30px;
+    ;
 
+
+
+}
 .imageside {
     margin-left: 20px;
     margin-top: 20px;
