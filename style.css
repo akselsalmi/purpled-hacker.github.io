@@ -1,9 +1,10 @@
+/**Font**/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
+/**Root**/
 :root{
   --theme-color: #163832;
 }
-
+/**Body**/
 body {
     margin: 0;
     font-family: "Lato",sans-serif;
@@ -12,14 +13,14 @@ body {
 .body{
   font-size: 1.25rem;
 }
+
+/**Socials**/
 .fab {
-    color: darkblue;
-    font-size: 30px;
-    ;
-
-
+    color: rgb(194, 194, 194) !important;
+    font-size: 25px;
 
 }
+/**Sidebar**/
 .imageside {
     margin-left: 20px;
     margin-top: 20px;
@@ -65,7 +66,7 @@ div.content {
     padding: 1px 16px;
     /*height: 1000px;*/
 }
-
+/**Phone**/
 @media screen and (max-width: 700px) {
     .sidebar {
         width: 100%;
